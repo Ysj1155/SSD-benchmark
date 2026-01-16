@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Logs (optional)
+*.log
+
+# Raw runs (fio outputs) - keep repo light
+runs/
+
+# If you decide to track some runs, comment the line above and use:
+# runs/*
+# !runs/_baseline_driver.log
+# !runs/_cache_compare_driver.log
+smoke.0.0
+runs/
